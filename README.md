@@ -29,4 +29,5 @@ We thus inspire ourselves on existing pipelines already developed by both the NL
 
 ## Disclaimer about the code
 
-The code is a work in progress and is not production-ready. The fist version of the pipeline is based on the existing [Ungoliant](https://github.com/oscar-project/ungoliant) pipeline of the [OSCAR Project](https://oscar-project.org), but we intend to make it up-to date and more modular.
+The code is a work in progress and is not production-ready. It will evolve in the coming days and weeks. The fist version of the pipeline is based on the existing [Ungoliant](https://github.com/oscar-project/ungoliant) pipeline of the [OSCAR Project](https://oscar-project.org) and [Dolma](https://github.com/allenai/dolma) the dataset for [OLMo](https://github.com/allenai/OLMo). For a fully working pipeline for WARC annotation please refer to these two projects while we continue to develop our experimental pipeline.
+
