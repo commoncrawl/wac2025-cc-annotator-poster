@@ -23,7 +23,7 @@ We thus inspire ourselves on existing pipelines already developed by both the NL
 - We preserve all documents and all metadata contained in the WARC headers
 - We use an asynchronous runtime in order to reduce latency and avoid waiting for I/O operations
 - Outside AWS, we stream all data using, the official Common Crawl download client. Within AWS we use their official SDK to access S3
-- We use modern LangID models, covering 200+ languages compared to the 160 supported by the CLD2 model \cite{cld2-2015-cld2} used by Common Crawl
+- We use modern LangID models, covering 200+ languages compared to the 160 supported by the CLD2 model used by Common Crawl
 - We test some of the text extraction algorithms preferred by the NLP community
 - We serialize our outputs in Parquet, making them compatible with the existing Common Crawl index
 
