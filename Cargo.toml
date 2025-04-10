@@ -8,7 +8,12 @@ arrow = "54.3.1"
 clap = { version = "4.5.35", features = ["derive"] }
 fasttext = "0.7.8"
 flate2 = "1.1.1"
+http = "1.3.1"
+httparse = "1.10.1"
+nanohtml2text = "0.2.1"
 parquet = "54.3.1"
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.140"
 tokio = { version = "1.44.2", features = ["full"] }
 walkdir = "2.5.0"
 warc = "0.4.0"
